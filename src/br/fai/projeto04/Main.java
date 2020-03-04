@@ -10,7 +10,7 @@ public class Main {
 	}
 
 	private void start() {
-		System.out.println("4 exercicio");
+		System.out.println("Testando");
 		
 	}
 
