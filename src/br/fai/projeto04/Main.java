@@ -10,8 +10,39 @@ public class Main {
 	}
 
 	private void start() {
-		System.out.println("Testando");
+		
+		usandoWhile();
+		usandoDoWhile();
+		usandoFor();
 		
 	}
 
+	
+	private void usandoWhile() {
+		System.out.println("UsandoWhile");
+		
+		int i = 0;
+		while (i < 20) {
+			System.out.println("i: " + i);
+		}
+		
+	}
+	
+	private void usandoDoWhile() {
+		System.out.println("UsandoDoWhile");
+		int i = 0;
+		do {
+			System.out.println("k: " + i);
+			i += 1;
+		} while (i <20);
+	}
+	
+	private void usandoFor() {
+		System.out.println("UsandoFor");
+		for (int i = 0; i < 20; i++) {
+			System.out.println("j: " + i);
+			
+		}
+		
+	}
 }
